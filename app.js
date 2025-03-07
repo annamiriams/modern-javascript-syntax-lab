@@ -178,3 +178,25 @@ const localLangConfig = 'fr'; // Change to 'es', 'fr', etc., or leave it `null`.
 const lang = localLangConfig || 'en';
 
 console.log(lang);
+
+// ! 10.2: Set website theme
+// Intro: In this exercise, you'll construct a single line of code that assigns 
+//        a default value to a variable named `theme` using the logical OR 
+//        operator. This line should match the logic of the following statement:
+//
+//        "theme is equal to savedUserTheme or the default value of light."
+//
+// a. Create a variable called `theme`.
+//
+// b. Assign `theme` the value of `savedUserTheme` or 'light' as a default.
+//
+// c. Log the value of `theme` to the console.
+//
+// Your code here (`savedUserTheme` is provided to get you started):
+
+// Simulated user theme preference (change this variable to test)
+const savedUserTheme = null; // Change to 'dark', etc., or leave it `null`.
+
+const theme = savedUserTheme || 'light';
+
+console.log(theme);
